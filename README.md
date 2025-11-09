@@ -42,5 +42,5 @@ Random Forest Regressor was selected for its relatively best performance metrics
 Fine-Tuning: 
 The model was fine-tuned using Randomized Search and Grid Search methods.
 
-Summary and Future Outlook
+Summary and Future Outlook:
 The final fine-tuned Random Forest Regressor achieved an $R^2$ of 0.258. The model's predictive ability is limited, likely due to the highly skewed nature of the proprietary Popularity target variable , persistent missing data in key categorical features , and missing crucial predictors in the TMDB database (e.g., production cost, key cast/director names, initial market testing data). As for deployment potential, the model is considered a valuable assisting tool for show production companies to predict a show's potential success, to be updated daily with new data. Better performance is anticipated with a cleaner, richer dataset.
